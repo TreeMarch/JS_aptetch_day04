@@ -1,0 +1,172 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* #wrapper {
+  height: 100vh;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+#main {
+  height: 100vh;
+  background-color: #ded9d9;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: -8px;
+  margin-bottom: 16px;
+}
+
+img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+input {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 4px;
+  border: 1px solid #eee1e1;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+input[type="submit"] {
+  width: 14%;
+  text-align: center;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+input[name="message"] {
+  padding: 12px;
+}
+
+#header {
+}
+#nav {
+  display: flex;
+  background-color: #000;
+  font-size: 14px;
+}
+#nav li {
+  list-style: none;
+  display: inline-block;
+  line-height: 34px;
+}
+#nav li a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 34px;
+  margin-left: 14px;
+  display: inline-block;
+}
+#nav li a:hover {
+  text-decoration: underline;
+}
+#welcome-section {
+  text-align: center;
+  padding: 40px;
+}
+.welcome-items {
+  margin-top: 16px;
+}
+
+#content_section {
+  height: 166px;
+  background-color: #fff;
+  text-align: center;
+  padding: 22px;
+  margin-bottom: 20px;
+}
+
+.list-skill {
+  margin-left: 20px;
+}
+.skill-list {
+  text-align: left;
+}
+.project-list {
+  text-align: left;
+}
+.project-item {
+  margin-left: 50px;
+  display: flex;
+  padding: 14px;
+}
+#content_section_projects {
+  background-color: #fff;
+  text-align: center;
+  padding: 22px;
+  margin-bottom: 20px;
+}
+.infor-section {
+  margin-left: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.pro-name {
+  margin-bottom: 40px;
+}
+.project-description {
+  margin-top: 12px;
+}
+.contact-name {
+  text-align: center;
+  margin-bottom: 24px;
+}
+#Contact {
+  text-align: left;
+}
+form {
+  text-align: center;
+}

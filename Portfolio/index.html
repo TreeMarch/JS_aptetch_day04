@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Web</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <ul id="nav">
+          <li><a href="#About">About</a></li>
+          <li><a href="#Skills">Skill</a></li>
+          <li><a href="#Project">Project</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+      <div id="welcome-section">
+        <h1>Welcome to My Portfolio</h1>
+        <p class="welcome-items">
+          Lorem ipsum dolor sit amet, consectetur adipisicing.
+        </p>
+      </div>
+      <div id="content_section" id="About">
+        <h2>About me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+          blanditiis temporibus, voluptatem voluptates et nobis excepturi.
+          Voluptates quaerat unde eaque?
+        </p>
+      </div>
+      <div id="content_section">
+        <h2 id="Skills">Skills</h2>
+        <div class="list-skill" >
+          <ul class="skill-list">
+            <li class="skill-items">HTML</li>
+            <li class="skill-items">Github</li>
+            <li class="skill-items">CSS</li>
+          </ul>
+        </div>
+      </div>
+      <div id="project">
+        <div id="content_section_projects" >
+          <h2 id="Projects class="pro-name" >Project</h2>
+          <div class="project-item">
+            <img src="./img/project01.jpg" alt="" />
+            <div class="infor-section">
+              <h4 class="name-project">Project 1</h4>
+              <p class="project-description">Project 1 Description</p>
+            </div>
+          </div>
+          <div class="project-item">
+            <img src="./img/project02.jpg" alt="" />
+            <div class="infor-section">
+              <h4 class="name-project">Project 2</h4>
+              <p class="project-description">Project 2 Description</p>
+            </div>
+          </div>
+          <div class="project-item">
+            <img src="./img/project03.jpg" alt="" />
+            <div class="infor-section">
+              <h4 class="name-project">Project 3</h4>
+              <p class="project-description">Project 3 Description</p>
+            </div>
+          </div>
+          <div class="project-item">
+            <img src="./img/project04.jpg" alt="" />
+            <div class="infor-section">
+              <h4 class="name-project">Project 4</h4>
+              <p class="project-description">Project 4 Description</p>
+            </div>
+          </div>
+          <div class="project-item">
+            <img src="./img/project05.jpg" alt="" />
+            <div class="infor-section">
+              <h4 class="name-project">Project 5</h4>
+              <p class="project-description">Project 5 Description</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="content_section">
+        <!-- <div id="Contact"> -->
+        <h2 class="contact-name">Contact</h2>
+        <div class="form-contact" id="Contact">
+          <form onsubmit="return validDateForm()">
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Your name"
+            />
+            <span id="nameError" class="error"></span>
+            <br />
+            <input
+              type="email"
+              name="Email"
+              id="Email"
+              placeholder="Your email"
+            />
+            
+            <br />
+            <input
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Your Message"
+            />
+            <br />
+            <input type="submit" name="" id="Send" value="Send Message" />
+          </form>
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+    <script src="JS.js"></script>
+  </body>
+</html>
