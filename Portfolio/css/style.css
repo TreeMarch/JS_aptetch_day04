@@ -49,6 +49,15 @@ h6 {
 html {
   scroll-behavior: smooth;
 }
+
+.totop {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #c3bef7;
+  padding: 10px;
+  /* border-radius: 20px; */
+}
 #main {
   height: 100vh;
   background-color: #ded9d9;
